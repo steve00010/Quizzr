@@ -1,0 +1,36 @@
+Log in System
+
+Users register and log in
+
+Index controller
+
+
+index/index //
+index/about
+
+Test controller
+
+test/take/testid
+test/result/testid
+
+Auth controller ///
+
+auth/login //
+auth/register //
+auth/logout //
+
+
+Admin controller
+
+admin/index
+admin/manage
+	admin/manage/edit/user
+admin/tests
+	admin/tests/create
+	admin/tests/delete/testid
+	admin/tests/stats/testid
+
+User Controller
+
+user/profile
+user/tests

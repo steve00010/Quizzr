@@ -1,0 +1,18 @@
+Requirements:
+
+Server to host on
+A web server (e.g apache)
+MySQL
+Database manager 
+
+Guide:
+
+Place the Quizsite folder on the server and set up the web server to point to the public folder within
+Go to config.php in application/config and set the $config['base_url'] to the server url or IP;
+Use the schema provided and inport it into a new database
+Set up a user account for the website to use
+Go to database.php in application/config and insert the database details (host,user,password,database)
+
+Go to contact.js in public/assets/js and set the APIURL to the current URL/IP, making sure to include the / at the end.
+Register an account on the website normally then use the database to set the account as an admin.
+
